@@ -38,7 +38,12 @@ export default [
       'react-refresh/only-export-components': 'warn',
 
       // Prettier
-      'prettier/prettier': 'error',
+      'prettier/prettier': [
+        'error',
+        {
+          endOfLine: 'auto',
+        },
+      ],
 
       // Import sort
       'simple-import-sort/imports': 'warn',
@@ -47,6 +52,7 @@ export default [
       // Clean code
       '@typescript-eslint/no-unused-vars': 'warn',
       'no-console': 'warn',
+      'linebreak-style': 'off',
     },
     settings: {
       react: {
