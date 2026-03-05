@@ -1,4 +1,7 @@
+import { Space, Typography } from 'antd';
 import styled from 'styled-components';
+
+const { Text, Title } = Typography;
 
 export const BackGroundImage = styled.img`
   position: fixed;
@@ -15,6 +18,10 @@ export const LogoImage = styled.img`
   max-width: 300px;
   height: auto;
   object-fit: contain;
+`;
+
+export const TitleLogin = styled(Title)`
+  color: orange;
 `;
 
 export const ContainerLogin = styled.div`
